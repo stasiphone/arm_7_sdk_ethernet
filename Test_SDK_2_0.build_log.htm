@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Stas Stas, Stas, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.22
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      UL2CM3.DLL V1.159.0.0
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Roman\Downloads\SDK_2_0_Ethernet_example_1\SDK_2_0_Ethernet_example_1\Test_SDK_2_0.uvproj
+Project File Date:  02/02/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+main.c(1): error:  #5: cannot open source input file "lpc2292.h": No such file or directory
+  #include <lpc2292.h>
+main.c: 0 warnings, 1 error
+compiling init.c...
+COMMON\init.c(1): error:  #5: cannot open source input file "lpc2292.h": No such file or directory
+  #include <lpc2292.h>
+COMMON\init.c: 0 warnings, 1 error
+compiling interrupt.c...
+COMMON\interrupt.c(1): error:  #5: cannot open source input file "lpc2292.h": No such file or directory
+  #include <lpc2292.h>
+COMMON\interrupt.c: 0 warnings, 1 error
+compiling debug_out.c...
+COMMON\debug_out.c(1): error:  #5: cannot open source input file "debug_out.h": No such file or directory
+  #include <debug_out.h>
+COMMON\debug_out.c: 0 warnings, 1 error
+compiling systimer.c...
+DRIVER\systimer.c(1): error:  #5: cannot open source input file "lpc2292.h": No such file or directory
+  #include <lpc2292.h>
+DRIVER\systimer.c: 0 warnings, 1 error
+compiling eth.c...
+DRIVER\eth.c(2): error:  #5: cannot open source input file "eth.h": No such file or directory
+  #include <eth.h>
+DRIVER\eth.c: 0 warnings, 1 error
+compiling eth_mii_phy.c...
+DRIVER\eth_mii_phy.c(2): error:  #5: cannot open source input file "eth.h": No such file or directory
+  #include <eth.h>
+DRIVER\eth_mii_phy.c: 0 warnings, 1 error
+compiling serial.c...
+DRIVER\serial.c(8): error:  #5: cannot open source input file "lpc2292.h": No such file or directory
+  #include <lpc2292.h>
+DRIVER\serial.c: 0 warnings, 1 error
+assembling Startup.s...
+STARTUP\Startup.s(1): error: A1163E: Unknown opcode Mode_USR , expecting opcode or Macro
+STARTUP\Startup.s(2): error: A1163E: Unknown opcode Mode_FIQ , expecting opcode or Macro
+STARTUP\Startup.s(3): error: A1163E: Unknown opcode Mode_IRQ , expecting opcode or Macro
+STARTUP\Startup.s(4): error: A1163E: Unknown opcode Mode_SVC , expecting opcode or Macro
+STARTUP\Startup.s(5): error: A1163E: Unknown opcode Mode_ABT , expecting opcode or Macro
+STARTUP\Startup.s(6): error: A1163E: Unknown opcode Mode_UND , expecting opcode or Macro
+STARTUP\Startup.s(7): error: A1163E: Unknown opcode Mode_SYS , expecting opcode or Macro
+STARTUP\Startup.s(9): error: A1163E: Unknown opcode I_Bit , expecting opcode or Macro
+STARTUP\Startup.s(10): error: A1163E: Unknown opcode F_Bit , expecting opcode or Macro
+STARTUP\Startup.s(13): error: A1167E: Invalid line start 
+STARTUP\Startup.s(14): error: A1167E: Invalid line start 
+STARTUP\Startup.s(15): error: A1167E: Invalid line start 
+STARTUP\Startup.s(16): error: A1167E: Invalid line start 
+STARTUP\Startup.s(17): error: A1167E: Invalid line start 
+STARTUP\Startup.s(18): error: A1167E: Invalid line start 
+STARTUP\Startup.s(19): error: A1167E: Invalid line start 
+STARTUP\Startup.s(20): error: A1167E: Invalid line start 
+STARTUP\Startup.s(21): error: A1167E: Invalid line start 
+STARTUP\Startup.s(23): error: A1163E: Unknown opcode UND_Stack_Size , expecting opcode or Macro
+STARTUP\Startup.s(24): error: A1163E: Unknown opcode SVC_Stack_Size , expecting opcode or Macro
+STARTUP\Startup.s(25): error: A1163E: Unknown opcode ABT_Stack_Size , expecting opcode or Macro
+STARTUP\Startup.s(26): error: A1163E: Unknown opcode FIQ_Stack_Size , expecting opcode or Macro
+STARTUP\Startup.s(27): error: A1163E: Unknown opcode IRQ_Stack_Size , expecting opcode or Macro
+STARTUP\Startup.s(28): error: A1163E: Unknown opcode USR_Stack_Size , expecting opcode or Macro
+STARTUP\Startup.s(30): error: A1163E: Unknown opcode STACK, , expecting opcode or Macro
+STARTUP\Startup.s(31): error: A1163E: Unknown opcode DS , expecting opcode or Macro
+STARTUP\Startup.s(32): error: A1163E: Unknown opcode DS , expecting opcode or Macro
+STARTUP\Startup.s(33): error: A1163E: Unknown opcode DS , expecting opcode or Macro
+STARTUP\Startup.s(34): error: A1163E: Unknown opcode DS , expecting opcode or Macro
+STARTUP\Startup.s(35): error: A1163E: Unknown opcode DS , expecting opcode or Macro
+STARTUP\Startup.s(36): error: A1163E: Unknown opcode DS , expecting opcode or Macro
+STARTUP\Startup.s(37): error: A1167E: Invalid line start 
+STARTUP\Startup.s(40): error: A1163E: Unknown opcode VPBDIV , expecting opcode or Macro
+STARTUP\Startup.s(41): error: A1163E: Unknown opcode VPBDIV , expecting opcode or Macro
+STARTUP\Startup.s(42): error: A1163E: Unknown opcode VPBDIV_SETUP , expecting opcode or Macro
+STARTUP\Startup.s(43): error: A1163E: Unknown opcode VPBDIV_Val , expecting opcode or Macro
+STARTUP\Startup.s(46): error: A1163E: Unknown opcode Phase , expecting opcode or Macro
+STARTUP\Startup.s(47): error: A1163E: Unknown opcode PLL_BASE , expecting opcode or Macro
+STARTUP\Startup.s(48): error: A1163E: Unknown opcode PLLCON_OFS , expecting opcode or Macro
+STARTUP\Startup.s(49): error: A1163E: Unknown opcode PLLCFG_OFS , expecting opcode or Macro
+STARTUP\Startup.s(50): error: A1163E: Unknown opcode PLLSTAT_OFS , expecting opcode or Macro
+STARTUP\Startup.s(51): error: A1163E: Unknown opcode PLLFEED_OFS , expecting opcode or Macro
+STARTUP\Startup.s(52): error: A1163E: Unknown opcode PLLCON_PLLE , expecting opcode or Macro
+STARTUP\Startup.s(53): error: A1163E: Unknown opcode PLLCON_PLLC , expecting opcode or Macro
+STARTUP\Startup.s(54): error: A1163E: Unknown opcode PLLCFG_MSEL , expecting opcode or Macro
+STARTUP\Startup.s(55): error: A1163E: Unknown opcode PLLCFG_PSEL , expecting opcode or Macro
+STARTUP\Startup.s(56): error: A1163E: Unknown opcode PLLSTAT_PLOCK , expecting opcode or Macro
+STARTUP\Startup.s(58): error: A1163E: Unknown opcode PLL_SETUP , expecting opcode or Macro
+STARTUP\Startup.s(59): error: A1163E: Unknown opcode PLLCFG_Val , expecting opcode or Macro
+STARTUP\Startup.s(62): error: A1163E: Unknown opcode Memory , expecting opcode or Macro
+".\Test_SDK_2_0.axf" - 58 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
